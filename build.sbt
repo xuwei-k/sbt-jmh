@@ -13,7 +13,7 @@ val jmhVersion = {
 val commonSettings = Seq(
   organization := "pl.project13.scala",
 
-  crossSbtVersions := Vector("0.13.16", "1.0.0"),
+  crossSbtVersions := Vector("1.1.0-RC2"),
 
   scalacOptions ++= List(
     "-unchecked",
